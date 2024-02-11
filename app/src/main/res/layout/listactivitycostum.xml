@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/texViewDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Törlés"
+        android:textSize="15sp"
+        android:textColor="@color/red"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/texViewModify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green"
+        android:text="Módosítás"
+        android:textSize="15sp"
+
+        android:padding="10dp"/>
+
+
+    <TextView
+        android:id="@+id/texViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gipsz Jakab"
+        android:textSize="15sp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/texViewCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New York"
+        android:textSize="15sp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/texViewPopulations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="55"
+        android:textSize="15sp"
+        android:padding="10dp"/>
+
+</LinearLayout>

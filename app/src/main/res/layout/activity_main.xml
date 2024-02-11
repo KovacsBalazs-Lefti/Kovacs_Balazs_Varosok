@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutForm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextId"
+            android:visibility="gone"
+            android:hint="Név"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextName"
+            android:hint="Név"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextOrszag"
+            android:hint="Orszag"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextLakossag"
+            android:hint="Lakosság"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonback"
+            android:textColorHint="#FFFFFF"
+            android:hint="Vissza"/>
+
+        <Button
+            android:id="@+id/buttonsave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mentés"
+            android:textColorHint="#FFFFFF"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/buttonList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Listázás"
+            android:textColorHint="#FFFFFF"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/buttonmodify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Módosítás"
+            android:textColorHint="#FFFFFF"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/buttonFelvetel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Új felvétele"
+            android:textColorHint="#FFFFFF"
+            android:gravity="center"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
